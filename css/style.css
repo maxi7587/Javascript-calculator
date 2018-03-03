@@ -1,0 +1,85 @@
+html {
+  width: 100%;
+}
+body {
+  width: 100%;
+  background-color: wheat;
+}
+
+/* Calculator*/
+
+#calculator {
+  margin-top: 5%;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5%;
+  padding: 10px;
+  width: 400px;
+  border: 1px solid silver;
+  border-radius: 5px;
+  background-color: whiteSmoke;
+  box-shadow: 8px 10px 20px, inset -1px -5px 10px 3px silver;
+  -moz-box-shadow: 8px 10px 20px, inset -1px -5px 10px 3px silver;
+  -webkit-box-shadow: 8px 10px 20px. inset -1px -5px 10px 3px silver;
+}
+
+#title {
+  display: inline;
+}
+
+h1 {
+  text-align: center;
+  margin: 5px 0 15px 0;
+}
+
+#screen {
+  height: 50px;
+  background-color: black;
+  border: 2px solid silver;
+  box-shadow: 0 0 10px silver;
+  -moz-box-shadow: 0 0 10px silver;
+  -webkit-box-shadow: 0 0 10px silver;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-bottom: 10px;
+  font-size: 40px;
+  text-align: right;
+  color: orange;
+}
+
+button {
+  height: 4em;
+  width: 5em;
+  margin: 5px 5px 5px 5px;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: inset -1px -5px 10px 3px silver;
+  -moz-box-shadow: inset -1px -5px 10px 3px silver;
+  -webkit-box-shadow: inset -1px -5px 10px 3px silver;
+}
+
+.double {
+  width: 11em;
+}
+
+#ACButton {
+  background-color: red;
+  border-top-color: red;
+  border-left-color: red;
+  border-right-color: fireBrick;
+  border-bottom-color: fireBrick;
+  box-shadow: inset -1px -5px 10px 3px crimson;
+  -moz-box-shadow: inset -1px -5px 10px 3px crimson;
+  -webkit-box-shadow: inset -1px -5px 10px 3px crimson;
+}
+
+#equal {
+  position: absolute;
+  height: 8.7em;
+}
+
+p {
+  font-weight: bold;
+  text-align: center;
+  margin: 8px 0 0 0;
+}
